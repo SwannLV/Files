@@ -1,12 +1,15 @@
-#www.allocine.fr | www.allocine.com
-```
-a.meta-title.meta-title-link
-div.titlebar-title
-```
+allocine: 
+ urls: 
+  - www.allocine.fr
+  - www.allocine.com
+ selectors:
+  - a.meta-title.meta-title-link,
+  - div.titlebar-title
 
-#www.rottentomatoes.com
-```
-td.middle_col
-p.title
-h1.title
-```
+rottentomatoes:
+ urls:
+  - www.rottentomatoes.com
+ selectors:
+  - td.middle_col
+  - p.title
+  - h1.title
