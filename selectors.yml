@@ -3,7 +3,7 @@ allocine:
   - www.allocine.fr
   - www.allocine.com
  selectors:
-  - a.meta-title.meta-title-link,
+  - a.meta-title.meta-title-link
   - div.titlebar-title
 
 rottentomatoes:
