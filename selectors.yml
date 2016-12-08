@@ -11,5 +11,5 @@ rottentomatoes:
   - www.rottentomatoes.com
  selectors:
   - td.middle_col
-  - p.title
+  - p.title.noSpacing
   - h1.title
