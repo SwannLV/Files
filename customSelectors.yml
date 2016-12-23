@@ -1,0 +1,15 @@
+allocine custom: 
+ urls: 
+  - www.allocine.fr
+  - www.allocine.com
+ selectors:
+  - a.meta-title.meta-title-link
+  - div.titlebar-title
+
+rottentomatoes custom:
+ urls:
+  - www.rottentomatoes.com
+ selectors:
+  - td.middle_col
+  - p.title.noSpacing
+  - h1.title
