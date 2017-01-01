@@ -6,10 +6,9 @@ allocine custom:
   - a.meta-title.meta-title-link
   - div.titlebar-title
 
-rottentomatoes custom:
+full-stream:
  urls:
-  - www.rottentomatoes.com
+  - full-stream.nu
  selectors:
-  - td.middle_col
-  - p.title.noSpacing
-  - h1.title
+  - mov-title
+  
