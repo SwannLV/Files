@@ -11,8 +11,5 @@ full-stream:
   - www.full-streaming.co
   - full-stream.nu
  selectors:
-  - div.movief > a
-   ends:
-    - streaming
-    - saison
+  - div.movief > a ends:[streaming,saison]
   
