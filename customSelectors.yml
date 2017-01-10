@@ -12,4 +12,7 @@ full-stream:
   - full-stream.nu
  selectors:
   - div.movief > a
+ titleEnds:
+ - streaming
+ - saison
   
