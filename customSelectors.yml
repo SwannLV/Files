@@ -11,5 +11,5 @@ full-stream:
   - www.full-streaming.co
   - full-stream.nu
  selectors:
-  - .movief
+  - div.movief > a
   
