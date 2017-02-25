@@ -8,7 +8,7 @@ allocine:
      movie:
      - HTML>BODY>MAIN>SECTION>DIV>DIV>DIV>DIV>DIV>DIV>DIV>DIV>DIV>.meta-title.meta-title-link
      tv:
-     - div.titlebar-titledddddddd
+     - HTML>BODY>MAIN>SECTION>DIV>DIV>DIV>DIV>DIV>DIV>DIV>DIV>DIV>DIV>DIV>.meta-title.meta-title-link
   - url: /*
     selector:
      movie:
