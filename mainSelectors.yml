@@ -1,15 +1,23 @@
-allocine: 
- urls: 
+allocine:
+  fqdn:
   - www.allocine.fr
   - www.allocine.com
- selectors:
-  - a.meta-title.meta-title-link
-  - div.titlebar-title
+  page:
+  - url: /film/fichefilm_gen_cfilm=*
+    selector:
+    - a.meta-title.meta-title-link
+    - div.titlebar-title
+  - url: /film/fichefilm_gen_cfilm=*
+    selector:
+    - a.meta-title.meta-title-link
+    - div.titlebar-title
 
 rottentomatoes:
- urls:
+ fqdn:
   - www.rottentomatoes.com
- selectors:
-  - td.middle_col
-  - p.title.noSpacing
-  - h1.title
+ page:
+ - url: /
+   selector:
+   - td.middle_col
+   - p.title.noSpacing
+   - h1.title
