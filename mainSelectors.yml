@@ -7,7 +7,7 @@ allocine:
     selector:
     - a.meta-title.meta-title-link
     - div.titlebar-title
-  - url: /film/fichefilm_gen_cfilm=*
+  - url: /*
     selector:
     - a.meta-title.meta-title-link
     - div.titlebar-title
@@ -16,7 +16,7 @@ rottentomatoes:
  fqdn:
   - www.rottentomatoes.com
  page:
- - url: /
+ - url: /*
    selector:
    - td.middle_col
    - p.title.noSpacing
