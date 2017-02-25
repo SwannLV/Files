@@ -5,12 +5,16 @@ allocine:
   page:
   - url: /film/fichefilm_gen_cfilm=*
     selector:
-    - a.meta-title.meta-title-link
-    - div.titlebar-title
+     movie:
+     - a.meta-title.meta-title-link
+     tv:
+     - div.titlebar-title
   - url: /*
     selector:
-    - a.meta-title.meta-title-link
-    - div.titlebar-title
+     movie:
+     - a.meta-title.meta-title-link
+     tv:
+     - div.titlebar-title
 
 rottentomatoes:
  fqdn:
@@ -18,6 +22,8 @@ rottentomatoes:
  page:
  - url: /*
    selector:
-   - td.middle_col
-   - p.title.noSpacing
-   - h1.title
+    movie:
+    - td.middle_col
+    - p.title.noSpacing
+    - h1.title
+    tv:
