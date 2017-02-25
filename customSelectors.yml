@@ -1,13 +1,3 @@
-allocine custom: 
- fqdn: 
-  - www.allocine.fr
-  - www.allocine.com
- page:
-  - url: /*
-    selector:
-    - a.meta-title.meta-title-link
-    - div.titlebar-title
-
 full-stream:
  fqdn:
   - www.full-streaming.co
