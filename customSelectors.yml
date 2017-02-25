@@ -1,15 +1,18 @@
 allocine custom: 
- urls: 
+ fqdn: 
   - www.allocine.fr
   - www.allocine.com
- selectors:
-  - a.meta-title.meta-title-link
-  - div.titlebar-title
+ page:
+  - url: /*
+    selector:
+    - a.meta-title.meta-title-link
+    - div.titlebar-title
 
 full-stream:
- urls:
+ fqdn:
   - www.full-streaming.co
   - full-stream.nu
- selectors:
-  - div.movief > a ends:streaming,saison
-  
+ page:
+ - url: /*
+   selector:
+   - div.movief > a ends:streaming,saison
