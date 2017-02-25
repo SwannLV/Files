@@ -6,15 +6,15 @@ allocine:
   - url: /film/fichefilm_gen_cfilm=*
     selector:
      movie:
-     - a.meta-title.meta-title-link
+     - HTML>BODY>MAIN>SECTION>DIV>DIV>DIV>DIV>DIV>DIV>DIV>DIV>DIV>.meta-title.meta-title-link
      tv:
-     - div.titlebar-title
+     - div.titlebar-titledddddddd
   - url: /*
     selector:
      movie:
-     - a.meta-title.meta-title-link
+     - a.meta-title.meta-title-linkddddd
      tv:
-     - div.titlebar-title
+     - div.titlebar-titledddddddd
 
 rottentomatoes:
  fqdn:
