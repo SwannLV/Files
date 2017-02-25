@@ -5,4 +5,6 @@ full-stream:
  page:
  - url: /*
    selector:
-   - div.movief > a ends:streaming,saison
+    movie:
+    - div.movief > a ends:streaming,saison
+    tv:
