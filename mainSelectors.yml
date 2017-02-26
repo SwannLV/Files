@@ -6,15 +6,17 @@ allocine:
   - url: /film/fichefilm_gen_cfilm=*
     selector:
      movie:
+     - HTML>BODY>MAIN>DIV>DIV>DIV>DIV>.titlebar-title.titlebar-title-lg
+  - url: /series/ficheserie_gen_cserie=*
+    selector:
+     tv:
+     - HTML>BODY>MAIN>SECTION>DIV>DIV>DIV>DIV>DIV>DIV>DIV>DIV>DIV>DIV>DIV>.meta-title.meta-title-link
+  - url: /
+    selector:
+     movie:
      - HTML>BODY>MAIN>SECTION>DIV>DIV>DIV>DIV>DIV>DIV>DIV>DIV>DIV>.meta-title.meta-title-link
      tv:
      - HTML>BODY>MAIN>SECTION>DIV>DIV>DIV>DIV>DIV>DIV>DIV>DIV>DIV>DIV>DIV>.meta-title.meta-title-link
-  - url: /*
-    selector:
-     movie:
-     - a.meta-title.meta-title-linkddddd
-     tv:
-     - div.titlebar-titledddddddd
 
 rottentomatoes:
  fqdn:
