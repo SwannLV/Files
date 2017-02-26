@@ -10,7 +10,7 @@ allocine:
   - url: /series/ficheserie_gen_cserie=*
     selector:
      tv:
-     - HTML>BODY>MAIN>SECTION>DIV>DIV>DIV>DIV>DIV>DIV>DIV>DIV>DIV>DIV>DIV>.meta-title.meta-title-link
+     - HTML>BODY>DIV>DIV>DIV>DIV>.tt_r26.j_entities
   - url: /
     selector:
      movie:
