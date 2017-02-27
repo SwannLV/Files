@@ -25,7 +25,5 @@ rottentomatoes:
  - url: /*
    selector:
     movie:
-    - td.middle_col
-    - p.title.noSpacing
-    - h1.title
+    - HTML>BODY>DIV>DIV>SECTION>DIV>DIV>DIV>DIV>TABLE>TBODY>TR>.middle_col
     tv:
