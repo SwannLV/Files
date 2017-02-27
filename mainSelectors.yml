@@ -29,4 +29,4 @@ rottentomatoes:
  - url: /m/*
    selector:
     movie:
-    - HTML>BODY>DIV>DIV>ASIDE>DIV>NAV>DIV>SECTION>TABLE>TBODY>TR>TD>
+    - HTML>BODY>DIV>DIV>ASIDE>DIV>NAV>DIV>SECTION>TABLE>TBODY>TR>TD>A
