@@ -26,7 +26,7 @@ rottentomatoes:
    selector:
     movie:
     - HTML>BODY>DIV>DIV>SECTION>DIV>DIV>DIV>DIV>TABLE>TBODY>TR>.middle_col
-  - url: /m/*
+ - url: /m/*
    selector:
     movie:
     - HTML>BODY>DIV>DIV>ASIDE>DIV>NAV>DIV>SECTION>TABLE>TBODY>TR>TD>
