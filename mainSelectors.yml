@@ -30,3 +30,13 @@ rottentomatoes:
    selector:
     movie:
     - HTML>BODY>DIV>DIV>ASIDE>DIV>NAV>DIV>SECTION>TABLE>TBODY>TR>TD>A
+    
+canal-vod:
+ fqdn:
+  - www.canal-vod.com
+ page:
+ - url: /Cinema/*
+   selector:
+    movie:
+    - HTML>BODY>DIV>MAIN>DIV>DIV>DIV>SECTION>DIV>ARTICLE>.mediaResume__title
+
