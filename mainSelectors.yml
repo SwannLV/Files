@@ -40,3 +40,15 @@ canal-vod:
     movie:
     - HTML>BODY>DIV>MAIN>DIV>DIV>DIV>SECTION>DIV>ARTICLE>.mediaResume__title
 
+fnacplay:
+ fqdn:
+  - www.fnacplay.com
+ page:
+ - url: /
+   selector:
+    movie:
+    - HTML>BODY>DIV>DIV>SECTION>DIV>DIV>UL>LI>A>
+ - url: /films/*
+   selector:
+    movie:
+    - HTML>BODY>DIV>DIV>DIV>SECTION>DIV>
